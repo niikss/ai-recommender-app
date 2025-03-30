@@ -7,7 +7,7 @@ A full-stack AI-powered web app that gives personalized recommendations for movi
 ## 🧠 Features
 
 - 🔁 Full-stack: React frontend + Flask backend
-- 🧠 ML-powered text classifier (Tfidf + Naive Bayes)
+- 🧠 ML-powered text classifier (TF-IDF + Naive Bayes)
 - 🎨 Tailwind CSS styling
 - 🌍 Ready to deploy (Netlify + Render)
 
