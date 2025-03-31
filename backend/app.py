@@ -7,6 +7,10 @@ import os
 app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": "*"}})
 
+@app.route('/')
+def home():
+    return "Welcome to the AI Recommendation API!"
+    
 # Dummy training data
 X_train = [
     # Movies
