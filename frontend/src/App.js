@@ -5,11 +5,14 @@ function App() {
   const [recommendations, setRecommendations] = useState([]);
 
   const handleSubmit = async () => {
-    const response = await fetch("https://ai-recommender-app.onrender.com/api/recommend", {
-  method: "POST",
-  headers: { "Content-Type": "application/json" },
-  body: JSON.stringify({ input: userInput }),
+    const response = await fetch('https://ai-recommender-app.onrender.com/api/recommend', {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json',
+  },
+  body: JSON.stringify({ input }),
 });
+
 
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
